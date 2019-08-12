@@ -1,10 +1,18 @@
 package routers
 
 import (
-	"chain/controllers"
+	"chain/controllers/basis"
 	"github.com/astaxie/beego"
 )
 
 func init() {
-	beego.Router("/", &controllers.MainController{})
+	ns := beego.NewNamespace("/basis",
+
+		beego.NSNamespace("/blockchain",
+			beego.NSInclude(
+				&basis.BlockContrillers{},
+			),
+		),
+	)
+	beego.AddNamespace(ns)
 }
