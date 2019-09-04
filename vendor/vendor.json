@@ -63,6 +63,12 @@
 			"revisionTime": "2018-11-10T20:28:10Z"
 		},
 		{
+			"checksumSHA1": "QH/3Xehxr2aYMk5mm4Xm2uUHiKg=",
+			"path": "github.com/lytics/logrus",
+			"revision": "4389a17ed024d8d196b5541116151f378705b0cc",
+			"revisionTime": "2017-05-28T19:14:27Z"
+		},
+		{
 			"checksumSHA1": "v5CCEZdC63TIkIL8TUeURBcZzNc=",
 			"path": "github.com/shiena/ansicolor",
 			"revision": "a422bbe96644373c5753384a59d678f7d261ff10",
@@ -130,6 +136,12 @@
 			"path": "gopkg.in/yaml.v2",
 			"revision": "e844058aeddf6065ac282a313e6f45a0a9f12731",
 			"revisionTime": "2019-06-18T04:09:34Z"
+		},
+		{
+			"checksumSHA1": "kaojzw9loj4y8do6ALs9Pb1HnjY=",
+			"path": "wzlog/wanzlog",
+			"revision": "fec78fa55bdb0dfc413103f45504e2f1523b3e8b",
+			"revisionTime": "2019-07-30T08:43:10Z"
 		}
 	],
 	"rootPath": "chain"
